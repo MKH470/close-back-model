@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Controller Modal</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+
+  <ion-button routerLink="" expand="block" fill="clear" shape="round">
+    Ga naar andere pagina
+  </ion-button>
+  <ion-button routerLink="sucond" expand="block" fill="clear" shape="round">
+    Ga naar sucond pagina
+  </ion-button>
+  <ion-button expand="block" (click)="openModal()">Open</ion-button>
+  <!-- <ion-button expand="block" (click)="back()">back</ion-button> -->
+  <p>{{ message }}</p>
+ 
+</ion-content>
